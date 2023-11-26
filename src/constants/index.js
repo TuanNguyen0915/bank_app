@@ -24,6 +24,25 @@ export const features = [
   },
 ];
 
+export const stats = [
+  {
+    id: 'stat-1',
+    value: '3800+',
+    title: 'User Active'
+  },
+  {
+    id: 'stat-2',
+    value: '230+',
+    title: 'Trusted by Company'
+  },
+  {
+    id: 'stat-3',
+    value: '$230M+',
+    title: 'Transaction'
+  }
+]
+
+
 export const feedback = [
   {
     id: "feedback-1",
@@ -51,23 +70,6 @@ export const feedback = [
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
 
 export const footerLinks = [
   {
