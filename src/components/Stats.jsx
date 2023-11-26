@@ -2,13 +2,13 @@ import { stats } from "../constants"
 
 const Stats = () => {
   return (
-    <section className="flex justify-center items-center flex-wrap sm:mb-20 mb-6">
+    <section className="flex sm:flex-row  flex-col justify-center items-center flex-wrap sm:mb-20 mb-6">
       {stats.map((stat) => (
         <div
           key={stat.id}
-          className={`flex-1 flex justify-center items-center m-3 ${
-            stat.id === "stat-2" ? `border-l-[1px] border-r-[1px]` : ``
-          } `}
+          className={`flex-1 flex justify-center items-center m-3 xs:${
+            stat.id === "stat-2" ? "" : "border-l-[1px]"
+          } xs:${stat.id === "stat-2" ? "" : "border-r-[1px]"}`}
         >
           <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
             {stat.value}
