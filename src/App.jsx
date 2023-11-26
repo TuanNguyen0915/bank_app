@@ -32,6 +32,7 @@ const App = () => {
         <div className="xl:max-w-[1280px] w-full">
           <Stats />
           <Business /> 
+          <Billing />
         </div>
       </div>
     </div>

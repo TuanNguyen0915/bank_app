@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const FeatureCard = ({feature}) => {
   return (
-    <div className="flex-1 flex p-6 hover:bg-slate-800 hover:rounded-[20px]">
+    <div className="flex-1 flex py-6 hover:bg-slate-800 hover:rounded-[20px]">
       <div className="w-[64px] h-[64px] flex justify-center items-center ss:mr-5 rounded-full bg-dimBlue">
         <img src={feature.icon} className="w-[50%] h-[50%]" />
       </div>
