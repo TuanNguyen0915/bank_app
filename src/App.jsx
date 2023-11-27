@@ -1,13 +1,10 @@
 import {
   Billing,
   Business,
-  Button,
   CardDeal,
   Clients,
   CTA,
-  FeedBackCard,
   Footer,
-  GetStarted,
   Hero,
   NavBar,
   Stats,
@@ -37,6 +34,7 @@ const App = () => {
           <Testimonials />
           <Clients />
           <CTA />
+          <Footer />
         </div>
       </div>
     </div>
