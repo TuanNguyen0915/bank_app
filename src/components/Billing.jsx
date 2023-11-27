@@ -2,7 +2,7 @@ import { bill, apple, google } from "../assets"
 
 const Billing = () => {
   return (
-    <section className="flex-1 flex md:flex-row flex-col-reverse justify-center items-center">
+    <section className="flex-1 flex md:flex-row flex-col-reverse justify-center items-center mt-[5rem]">
       {/* LEFT SIDE */}
       <div className="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
         <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
