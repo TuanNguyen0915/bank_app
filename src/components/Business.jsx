@@ -1,9 +1,11 @@
 import { features } from "../constants"
 import Button from "./Button"
 
+
+// hover:bg-slate-800 hover:rounded-[20px]
 const FeatureCard = ({feature}) => {
   return (
-    <div className="flex-1 flex py-6 hover:bg-slate-800 hover:rounded-[20px]">
+    <div className="flex-1 flex py-6 px-4 feature-card hover:rounded-[20px]">
       <div className="w-[64px] h-[64px] flex justify-center items-center ss:mr-5 rounded-full bg-dimBlue">
         <img src={feature.icon} className="w-[50%] h-[50%]" />
       </div>
@@ -32,7 +34,7 @@ const Business = () => {
         <Button styles="mt-10" />
       </div>
       {/* RIGHT SIDE */}
-      <div className="flex-1 flex-rol justify-center items-start xs:ml-5 ">
+      <div className="flex-1 flex-rol justify-center items-start xs:ml-5 ss:mt-0 mt-10 ">
         {features.map((feature) => (
           <FeatureCard feature={feature} key={feature.id} />
         ))}

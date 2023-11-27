@@ -15,7 +15,7 @@ const CardDeal = () => {
       </div>
       {/* RIGHT SIDE */}
       <div className="flex-1 flex justify-center items-start w-full">
-        <img src={card} alt="card" className="w-full"/>
+        <img src={card} alt="card" className="w-[100%] h-[100%]"/>
       </div>
     </section>
   )
