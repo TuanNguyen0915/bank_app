@@ -38,7 +38,7 @@ const Footer = () => {
         className="flex justify-between items-center md:flex-row flex-col-reverse pt-6 border-t-[1px] border-t-[#3f3r45] w-full"
       >
         <p className="font-poppins font-medium text-[18px] leading-[28px] text-white text-left md:mt-0 mt-6">
-          2021 HooBank. All Rights Reserved.
+          2023 Tuan Nguyen. All Rights Reserved.
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, idx) => (
