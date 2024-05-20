@@ -9,7 +9,7 @@ const CardDeal = () => {
           Find a better card deal in few easy step.
         </h2>
         <p className="font-poppins text-dimWhite font-normal text-[18px] w-4/5 leading-[30px]">
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Offers hundreds of deals each month. Simply navigate to the ‘Deals’ section to explore them.
         </p>
         <Button styles="mt-4" />
       </div>

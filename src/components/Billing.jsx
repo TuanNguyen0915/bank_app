@@ -18,8 +18,7 @@ const Billing = () => {
           billing & invoicing.
         </h2>
         <p className="font-poppins text-dimWhite text-[18px] w-full text-justify leading-[30px]">
-          Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus
-          aliporttitor integer platea placerat.
+        You can conveniently access transaction and payment information anytime, anywhere.
         </p>
         <div className="mt-4 flex-1 flex justify-start items-center w-3/4">
           <img src={apple} alt="apple" className="mr-10"/>
